@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kirang+Haerang&family=Rye&family=Amatic+SC&family=Bangers&family=Fredericka+the+Great&family=Great+Vibes&family=Pacifico&family=Kaushan+Script&family=Pirata+One&family=Monoton&family=Bungee+Inline&family=Akronim&family=Wallpoet&family=Bungee+Shade&family=Megrim&family=Waiting+for+the+Sunrise&family=Emilys+Candy&family=Limelight&family=Creepster&family=Finger+Paint&family=Faster+One&family=DotGothic16&family=Codystar&display=swap");
+@font-face {
+  font-family: "ARB_85_Poster_Script_JAN-39_FRE";
+  src: url("arb_85_poster_script_jan_39/ARB_85_Poster_Script_JAN-39_FRE.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "CloisterBlack";
+  src: url("CloisterBlack.ttf") format("truetype");
+}
+@font-face {
+  font-family: "dameron";
+  src: url("dameron.ttf") format("truetype");
+}
+:root {
+  --primary-font: "Indie Flower", cursive;
+  /* --primary-font: "dameron", cursive; */
+  /* --primary-font: "CloisterBlack", cursive; */
+  /* --primary-font: "ARB_85_Poster_Script_JAN-39_FRE", cursive; */
+  --bg-dark: #0a0404;
+  --text-color: #ffffffda;
+}
+
+html {
+  font-family: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: var(--primary-font);
+  background-color: var(--bg-dark);
+  color: var(--text-color);
+}
+
+img {
+  display: block;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-size: cover;
+}
+
+.loki {
+  font-size: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30rem;
+}
+
+.loki > .letter {
+  text-shadow: 0 0 0.4em var(--text-color), 0 0 0.5em var(--text-color),
+    0 0 0.25em var(--text-color);
+  mix-blend-mode: screen;
+}
+
+.yourName {
+  font-size: 5rem;
+  width: 30rem;
+  text-align: center;
+  text-shadow: 0 0 0.4em var(--text-color), 0 0 0.5em var(--text-color),
+    0 0 0.25em var(--text-color);
+  mix-blend-mode: screen;
+}
+
+form,
+#stop {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+form > input {
+  width: 20vw;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+}
+
+form > button {
+  opacity: 0.5;
+  font-size: 30px;
+  color: white;
+  border: none;
+  background: none;
+}
+form > button:hover {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+  text-shadow: 0 0 0.4em var(--text-color), 0 0 0.5em var(--text-color),
+    0 0 0.25em var(--text-color);
+  mix-blend-mode: screen;
+}
+
+/* #stop {
+  top: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid orange;
+  padding: 10px;
+  background: black;
+  color: orange;
+  font-size: 30px;
+} */
+
+/* #stop:hover {
+} */
