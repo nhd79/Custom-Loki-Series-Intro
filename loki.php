@@ -15,7 +15,7 @@
     <source src="LOKI Opening Theme.mp3" type="audio/mpeg">
   </audio>
   <div id="container" class="container">
-    <h3 class="yourName">Your name?</h3>
+    <h3 class="your-name">Your name?</h3>
     <form action="javascript:void(0);">
       <input id="inputName" type="text" placeholder="Type here..." value="">
       <button onClick=seeVarriants()>See Variants</button>
