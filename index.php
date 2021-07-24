@@ -8,6 +8,18 @@
   <title>Loki</title>
   <link rel="stylesheet" href="loki.css">
   <script src="loki.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-L1N5QCCS6Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-L1N5QCCS6Q');
+  </script>
 </head>
 
 <body onload="rand();">
